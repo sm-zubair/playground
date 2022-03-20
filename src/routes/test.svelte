@@ -19,6 +19,7 @@
 </script>
 
 <h2>Testing page</h2>
+{todos.id}
 {#each todos as post}
 	<p>{post.title}</p>
 {/each}

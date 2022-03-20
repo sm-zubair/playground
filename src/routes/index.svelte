@@ -5,6 +5,6 @@
 
 <div>
 	<h1>Welcome to SvelteKit</h1>
-	<a href="/about" sveltekit:prefetch>About page</a>
+	<a href="/about">About page</a>
 	<a href="/test">Test</a>
 </div>

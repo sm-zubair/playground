@@ -1,8 +1,7 @@
 <script context="module">
 	/** @type {import('./[slug]').Load} */
 	export async function load({ params, fetch, session, stuff }) {
-		console.log(`$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$`);
-		const url = `https://jsonplaceholder.typicode.com/todos`;
+		const url = `https://jsonplaceholder.typicode.com/todos/${Math.floor(Math.random() * 100)}`;
 		const response = await fetch(url);
 
 		return {
